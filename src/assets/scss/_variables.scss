@@ -1,9 +1,39 @@
-// Colors
-$primary: #af0000;
-$quite-black: #151515;
-$background-primary: #a30101;
+///Black White Gray
+$off-black: #101419;
+$off-white: #9fc8d9;
+$gray-800: #151b23;
+$gray-600: #22303f;
 
-// Queries
+//Blue
+$blue-800: #3a08b3;
+$blue-sky: #5146cf;
+$blue-200: #7d81e6;
+
+//Plum
+$plum-dark: #241019;
+$plum-100: #54222b;
+$plum: #8c2138;
+
+//Coral
+$coral-400: #c15544;
+$coral: #d37462;
+
+//Green
+$green-400: #468253;
+$green-200: #85a65e;
+$green: #dee1ab;
+
+//Yellow
+$yellow-400: #f2b74a;
+$yellow-200: #f6ca6f;
+$yellow: #fae2af;
+$yellowglow: rgba(250, 226, 174, 0.49);
+
+//Gradients
+$gradyellow: linear-gradient(90deg, #dee1ab 0%, #fae2af 50%, #c15544 100%);
+$gradfull: linear-gradient(90deg, #dee1ab 0%, #c15544 50%, #5146cf 100%);
+
+// Media Queries
 $br-desktop: 1200px;
 $br-tablet: 768px;
 $br-mobile: 550px;

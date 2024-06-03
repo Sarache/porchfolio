@@ -1,0 +1,69 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 4rem;
+
+}
+.grid__image {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  overflow: hidden;
+}
+.grid__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.2s;
+}
+.grid__content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.grid__row {
+  display: flex;
+  margin-top: 2.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.grid__row > .card__artist {
+  flex-grow: 0;
+}
+.grid__title {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.grid__rank {
+  font-size: 0.9rem;
+}
+.grid__artist {
+  font-size: 0.9rem;
+  font-style: italic;
+  flex-grow: 1;
+  margin-top: 0.2rem;
+  line-height: 1.3rem;
+}
+.grid__album {
+  font-size: 0.8rem;
+  color: #5b5757;
+}
+.grid__nodata {
+  grid-column-end: 4;
+  grid-column-start: 1;
+  align-items: start;
+}
+.grid__nodata > .card__content {
+  align-items: start;
+}
+
+@media screen and (max-width: 550px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=grid.css.map */
