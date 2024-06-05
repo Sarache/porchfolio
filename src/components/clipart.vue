@@ -15,7 +15,10 @@
 	align-items: center;
 
 	.stars {
-		width: 80%;
+		margin: 8rem;
+		width: 105%;
+		
+	padding-left: 10rem;
 
 		filter: drop-shadow(5px 5px 10px ($plum));
 
@@ -58,12 +61,13 @@
 
 	.avatar {
 		position: absolute;
+		width: 140%;
 	}
 }
 
 img {
-	width: 100%;
-	max-height: 800px;
+	width: 130%;
+
 }
 
 @media (max-width: 1000px) {

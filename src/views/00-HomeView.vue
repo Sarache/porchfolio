@@ -17,6 +17,7 @@ useHead({
 
 <style lang="scss" scoped>
 @import "../assets/scss/grid.scss";
+
 main {
 	display: flex;
 	flex-direction: row;
@@ -46,6 +47,7 @@ main {
 		filter: hue-rotate(0deg);
 		transform: rotate(0deg);
 	}
+
 	100% {
 		filter: hue-rotate(360deg);
 		transform: rotate(360deg);
@@ -102,9 +104,11 @@ main {
 	0% {
 		transform: rotate(180deg);
 	}
+
 	50% {
 		transform: rotate(0deg);
 	}
+
 	100% {
 		transform: rotate(360deg);
 	}
@@ -151,8 +155,5 @@ main {
 
 hero {
 	max-width: 580px;
-}
-clipart {
-	height: 10rem;
 }
 </style>

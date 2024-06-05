@@ -165,17 +165,20 @@ export default {
 
 <style lang="scss" scoped>
 main {
+	width: 100%;
 	.portfolioitem-content {
+
 		display: flex;
 		flex-wrap: wrap;
-		gap: 4rem;
-		width: 100%;
+		gap: 8em;
+		align-self: center;
+
 
 		.portfolioitem-section {
 			display: flex;
 			margin: 0;
 			gap: 4rem;
-			width: 100%;
+
 
 			.video {
 				width: 1200px;

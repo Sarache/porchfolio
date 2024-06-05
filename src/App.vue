@@ -63,16 +63,14 @@ div {
 }
 
 .pagecontent {
-	position: absolute;
 	width: 100%;
 	display: flex;
 	gap: 4rem;
 	margin: 10rem 0;
-
-
 }
 
-main {
+html, body {
 		width: 100%;
+		overflow-x: hidden
 	}
 </style>

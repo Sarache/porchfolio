@@ -48,8 +48,8 @@
   
   <style scoped>
   .background {
-
     position: fixed;
+    top: 0;
     width: 100%;
     height: 100vh;
     z-index: -10;
@@ -59,6 +59,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     transition: background-position 0.3s ease-in;
-    transform: scale(1.05)
+    transform: scale(1.4)
   }
   </style>

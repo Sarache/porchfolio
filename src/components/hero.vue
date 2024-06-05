@@ -1,9 +1,14 @@
 <template>
 	<div>
-		<h1 class="regular">Hey there! My name is</h1>
-		<h1 class="hero">Sara Jover</h1>
-		<h1 class="regular">and I am a passionate</h1>
-		<h1 class="hero">Interaction Designer</h1>
+		<h1 class="regular">¡Hola! You are in</h1>
+		<h1 class="hero">Sara Jover's</h1>
+		<h1 class="regular">creative realm.</h1>
+
+		<br>
+		<h1 class="regular">Find here all about</h1>		
+		<h1 class="hero">Digital Services</h1>
+		<h1 class="hero">& Media </h1>
+		<h1 class="hero">Production</h1>
 	</div>
 </template>
 <script></script>

@@ -1,5 +1,6 @@
 <script setup>
 import { useHead } from "@unhead/vue"
+import underconstruction from "@/components/underconstruction.vue"
 
 useHead({
 	title: "Manifesto",
@@ -8,6 +9,6 @@ useHead({
 
 <template>
 	<main>
-		<h1 class="hero">Mani</h1>
+		<underconstruction></underconstruction>
 	</main>
 </template>
