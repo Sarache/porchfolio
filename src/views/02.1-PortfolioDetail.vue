@@ -54,13 +54,13 @@ main {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 2rem;
+		width: 100%;
 
 		.portfolioitem-section {
 			display: flex;
 			gap: 4rem;
 			width: 100%;
 			.portfoliosection-content {
-				width: 100%;
 			}
 		}
 	}

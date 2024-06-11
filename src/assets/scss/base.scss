@@ -173,8 +173,6 @@ body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-
-
 }
 
 strong {
@@ -201,11 +199,7 @@ menuitem {
 		width: 3rem;
 		font-size: 1.2rem;
 	}
-
-
 }
-
-
 
 .hero {
 	background: $gradfull;
@@ -314,8 +308,6 @@ subtitle {
 
 p {
 	line-height: 2.4rem;
-
-
 }
 
 b {
@@ -337,11 +329,17 @@ a {
 	}
 }
 
-img {}
+img {
+}
 
 main {
-	margin: 0 8rem 0 24rem;
 	font-weight: normal;
+
+	padding-left: 20rem;
+}
+
+.pagecontent {
+	padding: 8rem;
 }
 
 @media (max-width: $br-desktop) {
@@ -461,7 +459,6 @@ footer {
 
 .arrow3d {
 	align-items: center;
-
 
 	img {
 		animation: rotateAnimation 3s linear infinite;
