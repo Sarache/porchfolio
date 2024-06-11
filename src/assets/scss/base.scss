@@ -42,7 +42,7 @@ html {
 		border-radius: 1rem 1rem 0 0;
 
 		background-color: $gray-800;
-		//background: url("../../../public/img/cardheader.png") repeat fixed 10% 10%;
+		//background: url("../ /img/cardheader.png") repeat fixed 10% 10%;
 		mix-blend-mode: dissolve;
 		background-size: 90%;
 
@@ -133,6 +133,7 @@ html {
 	width: 100%;
 	margin: 0;
 	max-width: 700px;
+	display: flex;
 
 	border-radius: 1rem;
 	border: 1px solid rgba($color: $blue-200, $alpha: 0.5);
@@ -325,7 +326,7 @@ a {
 		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		cursor: url("/Users/sara.jover/Library/CloudStorage/OneDrive-Accenture/Dev Sara/portfolio-sara-jover/public/pointer-hover.svg"), auto;
+		cursor: url("/Users/sara.jover/Library/CloudStorage/OneDrive-Accenture/Dev Sara/portfolio-sara-jover /pointer-hover.svg"), auto;
 	}
 }
 
@@ -335,11 +336,7 @@ img {
 main {
 	font-weight: normal;
 
-	padding-left: 20rem;
-}
-
-.pagecontent {
-	padding: 8rem;
+	padding: 4rem 4rem 4rem 24rem;
 }
 
 @media (max-width: $br-desktop) {

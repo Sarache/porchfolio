@@ -4,10 +4,10 @@
 		<h1 class="hero">Sara Jover's</h1>
 		<h1 class="regular">creative realm.</h1>
 
-		<br>
-		<h1 class="regular">Find here all about</h1>		
+		<br />
+		<h1 class="regular">Find here all about</h1>
 		<h1 class="hero">Digital Services</h1>
-		<h1 class="hero">& Media </h1>
+		<h1 class="hero">& Media</h1>
 		<h1 class="hero">Production</h1>
 	</div>
 </template>
@@ -15,8 +15,7 @@
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
 div {
-  
-	margin: 25% 0;
+	margin: 10% 0;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -28,7 +27,6 @@ div {
 		font-size: 2rem;
 		margin: 1rem;
 	}
-  
 }
 
 .regular {
@@ -39,7 +37,7 @@ div {
 	font-weight: 200;
 	letter-spacing: -0.03rem;
 	width: 100%;
-  @media (max-width: 600px) {
+	@media (max-width: 600px) {
 		font-size: 2.5rem;
 		line-height: 3.5rem;
 	}

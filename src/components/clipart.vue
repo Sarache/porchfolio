@@ -1,7 +1,7 @@
 <template>
 	<div class="imgarea">
 		<img class="stars" src="../assets/clip1.svg" alt="" />
-		<img class="avatar" src="../../public/img/title-planet-Sara.png" alt="Planet Sara written in cursive, very colorful and metallic" />
+		<img class="avatar" src="/img/title-planet-Sara.png" alt="Planet Sara written in cursive, very colorful and metallic" />
 	</div>
 </template>
 <script></script>
@@ -17,8 +17,8 @@
 	.stars {
 		margin: 8rem;
 		width: 105%;
-		
-	padding-left: 10rem;
+
+		padding-left: 10rem;
 
 		filter: drop-shadow(5px 5px 10px ($plum));
 
@@ -67,7 +67,6 @@
 
 img {
 	width: 130%;
-
 }
 
 @media (max-width: 1000px) {

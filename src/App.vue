@@ -1,26 +1,25 @@
 <script setup>
 import HeaderMenu from "@/components/HeaderMenu.vue"
 import { RouterView } from "vue-router"
-import Background from "./components/background.vue";
-
+import Background from "./components/background.vue"
 </script>
 <template>
 	<HeaderMenu />
 	<div class="pagecontent">
 		<RouterView />
-	</div> <Background>
-	<div class="gradient-bg">
-		<div class="gradient-container">
-			<div class="g1"></div>
-			<div class="g2"></div>
-			<div class="g3"></div>
-			<div class="g4"></div>
-			<div class="g5"></div>
-			<div class="interactive" ref="interBubble"></div>
-		</div>
 	</div>
-
-</Background>
+	<Background>
+		<div class="gradient-bg">
+			<div class="gradient-container">
+				<div class="g1"></div>
+				<div class="g2"></div>
+				<div class="g3"></div>
+				<div class="g4"></div>
+				<div class="g5"></div>
+				<div class="interactive" ref="interBubble"></div>
+			</div>
+		</div>
+	</Background>
 </template>
 
 <script>
@@ -66,11 +65,11 @@ div {
 	width: 100%;
 	display: flex;
 	gap: 4rem;
-	margin: 10rem 0;
 }
 
-html, body {
-		width: 100%;
-		overflow-x: hidden
-	}
+html,
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
 </style>

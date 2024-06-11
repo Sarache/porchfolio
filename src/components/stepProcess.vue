@@ -15,12 +15,11 @@ div {
 }
 
 .content {
-
 	width: 100%;
 	text-align: left;
+
 	.step-content {
 		width: 100%;
-		display: flex;
 		padding: 0;
 		gap: 1rem;
 		text-align: left;

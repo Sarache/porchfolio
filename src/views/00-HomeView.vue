@@ -1,6 +1,7 @@
 <script setup>
 import hero from "@/components/hero.vue"
 import clipart from "@/components/clipart.vue"
+import cardprojectnew from "@/components/cardprojectnew.vue"
 import { useHead } from "@unhead/vue"
 
 useHead({
@@ -13,6 +14,8 @@ useHead({
 		<hero />
 		<clipart />
 	</main>
+
+	<div class="cardprojectnew"></div>
 </template>
 
 <style lang="scss" scoped>

@@ -57,7 +57,7 @@ useHead({
 								</stepProcess>
 							</template>
 						</cardprocess>
-						<div class="arrow3d"><img src="/public/arrow-down.svg" alt="↓" /></div>
+						<div class="arrow3d"><img src=" /arrow-down.svg" alt="↓" /></div>
 					</div>
 				</template>
 			</cardwindow>

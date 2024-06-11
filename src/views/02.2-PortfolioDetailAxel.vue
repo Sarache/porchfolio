@@ -11,7 +11,7 @@ useHead({
 		<h1 class="hero">Axel - Your insurance companion</h1>
 		<div class="portfolioitem-content">
 			<video class="video" width="1200px" controls>
-				<source src="../../public/vid/Teaser_v2_EN.mp4" type="video/mp4" />
+				<source src="/vid/Teaser_v2_EN.mp4" type="video/mp4" />
 				Your browser does not support the video tag.
 			</video>
 			<div class="portfolioitem-section">
@@ -49,7 +49,7 @@ useHead({
 						After numerous working sessions and touch points, we elaborated a value proposition canvas to showcase the most relevant
 						features and how can it improve user experience and adoption.
 					</body>
-					<img src="../../public/img/Axel_ValueProp.svg" alt="Value Proposition canvas" />
+					<img src=" /img/Axel_ValueProp.svg" alt="Value Proposition canvas" />
 				</div>
 			</div>
 
@@ -60,14 +60,15 @@ useHead({
 						We imagined how the experience can be to design a user journey and in which moments of life Axel could provide information and
 						solutions to John. The user needs a very concise answer to a query. <br />
 					</body>
+					<img class="side" src=" /img/Axel_Wireframe.png" alt="" />
 				</div>
-				<img class="side" src="../../public/img/Axel_Wireframe.png" alt="" />
 			</div>
 
 			<div class="portfolioitem-section">
-				<img class="side" src="../../public/img/Axel_Dev.png" alt="" />
 				<div class="portfoliosection-content">
 					<h3>First Chat GPT experiments</h3>
+					<img class="side" src=" /img/Axel_Dev.png" alt="" />
+
 					<body>
 						Open AI is the to-go Gen AI tool, so we experimented with some questions and sentiment analysis. We will prompt-engineer the
 						instructions and make a framework that can receive all kinds of text documents in order to analyze them and translate them into
@@ -139,7 +140,7 @@ useHead({
 						More than just a web enviroment for our assistant, we have made the scene compatible with presenter immersion and chroma key
 						recording for remote demos.
 					</body>
-					<img src="../../public/img/Axel_Metaverse.png" alt="Value Proposition canvas" />
+					<img src=" /img/Axel_Metaverse.png" alt="Value Proposition canvas" />
 				</div>
 			</div>
 		</div>
@@ -167,26 +168,15 @@ export default {
 main {
 	width: 100%;
 	.portfolioitem-content {
-
 		display: flex;
 		flex-wrap: wrap;
 		gap: 8em;
 		align-self: center;
 
-
 		.portfolioitem-section {
 			display: flex;
 			margin: 0;
 			gap: 4rem;
-
-
-			.video {
-				width: 1200px;
-				border-radius: 2rem;
-				video::-webkit-media-controls-panel {
-					width: 40px;
-				}
-			}
 
 			.portfoliosection-content {
 				display: flex;
@@ -209,7 +199,7 @@ main {
 }
 img {
 	opacity: 60%;
-
+	width: 100%;
 	transition-property: opacity;
 	transition-duration: 0.5s;
 	transition-timing-function: linear;
@@ -217,8 +207,12 @@ img {
 		opacity: 100%;
 	}
 }
+
+video {
+	width: 100%;
+}
 .side {
-	width: 50%;
 	border-radius: 1rem;
+	width: 100%;
 }
 </style>

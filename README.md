@@ -3,7 +3,7 @@
 [![Discord](https://img.shields.io/discord/367753345575944221?color=%237289DA&label=Discord%20server&logo=discord&logoColor=white)](https://thomasbnt.dev/discord)
 [![Twitter Follow](https://img.shields.io/badge/Follow%20me%20on-Twitter-1DA1F2?&logo=Twitter)](https://twitter.com/Thomasbnt_)
 
-<h1><img height="30" src="./public/favicon.png" alt="Logo of this starter kit"/>&nbsp;Vue.js 3 + SASS + Lucide Icons Starter Kit</h1>
+<h1><img height="30" src=". /favicon.png" alt="Logo of this starter kit"/>&nbsp;Vue.js 3 + SASS + Lucide Icons Starter Kit</h1>
 
 ## ✨ Features
 
