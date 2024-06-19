@@ -73,6 +73,7 @@ html {
   padding: 1rem;
   color: #9fc8d9;
   border-radius: 0 0 1rem 1rem;
+  display: flex;
 }
 
 body {
@@ -177,7 +178,7 @@ img {
 }
 
 main {
-  max-width: 1200px;
+
   margin: 0 auto;
   font-weight: normal;
 }

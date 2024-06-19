@@ -1,52 +1,29 @@
 <script setup>
 import { useHead } from "@unhead/vue"
-import cardproject from "../components/cardproject.vue"
+import portfolioDetail from "../components/portfolioDetail.vue"
+import portfolioView from "../views/02-PortfolioView.vue"
+
 useHead({
-	title: "Portfolio item",
+	title: "{{portfolio.title}}",
+})
+
+import { ref, onMounted } from "vue"
+import { useRoute } from "vue-router"
+
+const route = useRoute()
+const project = ref(route.params.project || null)
+
+onMounted(() => {
+	if (!project.value) {
+		const stateProject = route.params.state.project
+		project.value = stateProject
+	}
 })
 </script>
 
 <template>
-	<main>
-		<h2>{{ $route.params.label }}</h2>
-		<h2>{{ project }}</h2>
-		<h1 class="hero">Portfolio item</h1>
-		<div class="portfolioitem-content">
-			<div class="portfolioitem-section">
-				<div class="portfoliosection-content">
-					<h4>The Client</h4>
-					<div class="portfoliosection-description">Hola</div>
-				</div>
-				<div class="portfoliosection-content">
-					<h4>The Challenge</h4>
-					<div class="portfoliosection-description">Hola</div>
-				</div>
-				<div class="portfoliosection-content">
-					<h4>The Solution</h4>
-					<div class="portfoliosection-description">Hola</div>
-				</div>
-				<div class="portfolioitem-section"></div>
-			</div>
-		</div>
-	</main>
+	<portfolioDetail></portfolioDetail>
 </template>
-
-<script>
-import axios from "axios"
-
-export default {
-	data() {
-		return {
-			project: null,
-		}
-	},
-	methods: {
-		async getProject() {
-			this.project = await axios.get("/api/projects/" + $route.params.label + ".json")
-		},
-	},
-}
-</script>
 
 <style lang="scss" scoped>
 main {

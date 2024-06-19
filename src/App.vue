@@ -63,7 +63,6 @@ div {
 
 .pagecontent {
 	width: 100%;
-	display: flex;
 	gap: 4rem;
 }
 

@@ -1,63 +1,25 @@
 <script setup>
 import { useHead } from "@unhead/vue"
 import cardwindow from "@/components/cardwindow.vue"
-import cardprocess from "@/components/cardprocess.vue"
-import stepProcess from "@/components/stepProcess.vue"
 
 useHead({
-	title: "About",
+	title: "✧ 𝓟𝓵𝓪𝓷𝓮𝓽 𝓢𝓪𝓻𝓪 ✧ The Capitol",
 })
 </script>
 
 <template>
 	<main>
-		<h1>About</h1>
+		<h1>About Planet Sara</h1>
 		<div class="aboutcontent">
 			<cardwindow>
-				<template v-slot:subtitle> about me</template>
-				<template v-slot:titlecontent>Where did it all began?</template>
+				<template v-slot:subtitle> The Capitol</template>
+				<template v-slot:titlecontent>Select your path:</template>
 				<template v-slot:content>
-					Since I was a kid, I have been very close to instruments and painting tools, which made me extremely curious about different forms
-					of art creation.
-					<br />
-					<p>
-						I discovered very in a very early age digital art, graphic and website design, and fell in love with Adobe Photoshop.
-						<strong> I was able to create any visual I could imagine,</strong> in every color, with my computer. I learned on my own thanks
-						to the internet, and that gave me the chance to be a teacher and a coordinator of a successful photo & video editing course.
-						Back then, the app icon looked like this:
-					</p>
-					<p>
-						I had the chance to have a first taste of product design thanks to my degree internship where I discovered the role design has
-						in the world and how can positively impact users’ life. Then, I studied Interactive Design masters degree to deeply learn all
-						the implications in this domain, such as
-						<strong>ethnography, extended reality, UI design, Design process & thinking, UX writing, and internet culture,</strong> among
-						others.
-					</p>
-					<p>
-						Then, my professional experiences have made me dive in <strong>different and constantly changing industries</strong> from gaming
-						and retail start-ups to insurance and space and defense corporate leaders, which makes me extremely versatile.
-					</p>
-				</template>
-			</cardwindow>
-
-			<cardwindow>
-				<template v-slot:subtitle> {{ cardJourney.title }} </template>
-				<template v-slot:titlecontent> {{ cardJourney.titlecontent }} </template>
-				<template v-slot:content>
-					{{ cardJourney.contenttitle }}
-					<div class="journeycontent" v-for="item in cardJourney.designJourneyMap">
-						<cardprocess>
-							<template v-slot:titlelabel> {{ item.title }} </template>
-							<template v-slot:children>
-								<stepProcess v-for="baby in item.child">
-									<template v-slot:step-subtitle> {{ baby.title }} </template>
-									<template v-slot:step-content>
-										<template v-for="feotus in baby.content"> {{ feotus }} <br /> </template>
-									</template>
-								</stepProcess>
-							</template>
-						</cardprocess>
-						<div class="arrow3d"><img src=" /arrow-down.svg" alt="↓" /></div>
+					Please click on an ecosystem to assess you more precisely:
+					<div class="img-flex">
+						<router-link to="/about/thehuman"> <img src="/img/About_Photography.jpeg" alt="" />Heelo </router-link>
+						<router-link to="/about/thedesigner"> <img src="/img/About_Photography2.jpeg" alt="" /> </router-link>
+						<router-link to="/about/themusician"> <img src="/img/About_Photography3.jpeg" alt="" /> </router-link>
 					</div>
 				</template>
 			</cardwindow>
@@ -169,26 +131,11 @@ h1 {
 	margin-bottom: 2rem;
 }
 .aboutcontent {
-	display: flex;
-	flex-direction: row;
-	gap: 2rem;
+	gap: 4rem;
 	width: 100%;
 
 	@media (max-width: 1000px) {
 		flex-direction: column;
 	}
-}
-
-.stepProcess {
-	display: flex;
-	gap: 1rem;
-	padding: 0 0.25rem;
-}
-
-.journeycontent {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
 }
 </style>

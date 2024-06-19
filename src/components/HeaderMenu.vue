@@ -2,25 +2,25 @@
 	<div class="headerbg">
 		<ul class="menuheader">
 			<li>
-				<menuitem><router-link to="/"><img class="logo" src="../assets/LogoSarache.png"
-						alt="Home" /></router-link></menuitem>
+				<menuitem>
+					<router-link to="/">
+						<img class="logo" src="../assets/LogoSarache.png" alt="Home" />
+					</router-link>
+				</menuitem>
 			</li>
-			<li class="has-submenu">
+			<li :class="{ 'has-submenu': true, 'submenu-active': isSubmenuActive }">
 				<menuitem><router-link to="/about">About me</router-link></menuitem>
-
 				<ul class="submenu">
 					<li><router-link to="/about/thehuman">The human</router-link></li>
 					<li><router-link to="/about/thedesigner">The designer</router-link></li>
 					<li><router-link to="/about/themusician">The musician</router-link></li>
 				</ul>
-
 			</li>
-
 			<li>
 				<menuitem><router-link to="/designportfolio">Design Portfolio</router-link></menuitem>
 			</li>
 			<li>
-				<menuitem><router-link to="/creativeportfolio">Creative Porfolio</router-link></menuitem>
+				<menuitem><router-link to="/creativeportfolio">Creative Portfolio</router-link></menuitem>
 			</li>
 			<li>
 				<menuitem><router-link to="/contact">Contact</router-link></menuitem>
@@ -29,14 +29,18 @@
 	</div>
 </template>
 
-<script></script>
+<script>
+export default {
+	computed: {
+		isSubmenuActive() {
+			return this.$route.path.startsWith("/about")
+		},
+	},
+}
+</script>
 
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
-
-div {
-	margin: 1rem 0;
-}
 
 .headerbg {
 	background: rgba($color: $off-black, $alpha: 0.2);
@@ -54,35 +58,23 @@ div {
 	@media (max-width: 1200px) {
 		width: 100%;
 		height: 6rem;
-
 	}
-
-
 }
 
 ul {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	justify-content: center;
 	gap: auto;
 
-	justify-content: center;
-
-
 	@media (max-width: 1200px) {
-
 		flex-direction: row;
 		top: 0;
 		padding: 0;
 		margin: 2rem;
 		justify-content: space-between;
 		padding: 0 4rem;
-
-
-
-
-
-
 	}
 
 	@media (max-width: 1000px) {
@@ -92,15 +84,6 @@ ul {
 	li {
 		display: inline;
 
-
-
-		.menuitem {
-
-
-		}
-
-		&:hover {}
-
 		&.has-submenu {
 			position: relative;
 
@@ -108,11 +91,9 @@ ul {
 				max-height: 0;
 				overflow: hidden;
 				transition: max-height 0.5s ease;
-				padding-bottom: 2rem;
 				list-style: none;
 				display: flex;
-				gap: .5rem;
-
+				line-height: 1.5rem;
 
 				@media (max-width: 1200px) {
 					max-height: auto;
@@ -123,31 +104,29 @@ ul {
 					margin: 0;
 					font-family: Be Vietnam Pro;
 					display: flex;
-
-
-
+					gap: 0;
 
 					a {
-
 						font-size: 1rem;
-						font-style: normal;
-						font-weight: 200;
-						line-height: 1rem;
-						/* 114.286% */
+						font-weight: 500;
 						text-transform: uppercase;
 						color: $off-white;
-
-
-
 					}
 
-
+					&:hover a {
+						letter-spacing: 3pt;
+						font-weight: 600;
+						transition: letter-spacing 0.5s ease, color 0.5 ease;
+					}
 				}
+			}
+
+			&.submenu-active .submenu {
+				max-height: 300px;
 			}
 
 			&:hover .submenu {
 				display: block;
-				display: flex;
 				max-height: 300px;
 			}
 		}

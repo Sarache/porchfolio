@@ -1,11 +1,10 @@
 <script setup>
 import hero from "@/components/hero.vue"
 import clipart from "@/components/clipart.vue"
-import cardprojectnew from "@/components/cardprojectnew.vue"
 import { useHead } from "@unhead/vue"
 
 useHead({
-	title: "Sara Jover 🦚 Design portfolio ",
+	title: "✧ 𝓟𝓵𝓪𝓷𝓮𝓽 𝓢𝓪𝓻𝓪 ✧ Welcome abroad!",
 })
 </script>
 
@@ -15,7 +14,7 @@ useHead({
 		<clipart />
 	</main>
 
-	<div class="cardprojectnew"></div>
+	<div class="cardproject"></div>
 </template>
 
 <style lang="scss" scoped>

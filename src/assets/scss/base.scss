@@ -88,15 +88,15 @@ html {
 	}
 
 	.cardcontent {
-		gap: 2rem;
 		background: rgba($color: $off-black, $alpha: 0.5);
 		backdrop-filter: blur(10px);
 		padding: 4rem;
+		gap: 2rem;
 		border-radius: 0 0 1rem 1rem;
-		display: flex;
-		flex-direction: column;
 		height: 100%;
 		transition: max-height 0.3s ease-in;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.cardcontent-minimized {
@@ -119,33 +119,100 @@ html {
 
 	&.card-maximized {
 		position: absolute;
-		z-index: 10;
+		z-index: 100;
 		width: 100%;
 		transition: position 0.3s ease-in;
 	}
 }
 
+.img-flex {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 2rem;
+	width: 100%;
+	box-sizing: border-box; // Ensures padding and borders are included in the width and height
+
+	a {
+		flex: 1 1 calc(33.333% - 2rem); // 3 images per row
+		aspect-ratio: 1; // Ensures the image remains square
+		object-fit: cover; // Ensures the image covers the area while maintaining its aspect ratio
+		width: 100%;
+		opacity: 60%;
+		transition-property: opacity;
+		transition-duration: 0.5s;
+		transition-timing-function: linear;
+		background: center center/cover no-repeat;
+		border-radius: 1rem;
+		overflow: hidden;
+		transition: border-radius 0.25s ease, opacity 0.5s;
+
+		&:hover {
+			opacity: 100%;
+			border-radius: 2rem;
+			transition: border-radius 0.25s ease, opacity 0.5s;
+			background-size: 120%;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	img {
+		width: 100%;
+		flex: 1 1 calc(50% - 2rem); // 3 images per row
+		aspect-ratio: 1; // Ensures the image remains square
+		object-fit: cover; // Ensures the image covers the area while maintaining its aspect ratio
+		opacity: 60%;
+		transition-property: opacity;
+		transition-duration: 0.5s;
+		transition-timing-function: linear;
+		background: center center/cover no-repeat;
+		border-radius: 1rem;
+		overflow: hidden;
+		transition: border-radius 0.25s ease, opacity 0.5s;
+
+		&:hover {
+			opacity: 100%;
+			border-radius: 2rem;
+			transition: border-radius 0.25s ease, opacity 0.5s;
+		}
+	}
+
+	@media (max-width: 768px) {
+		img {
+			flex: 1 1 calc(50% - 2rem); // 2 images per row on smaller screens
+		}
+	}
+
+	@media (max-width: 480px) {
+		img {
+			flex: 1 1 calc(100% - 2rem); // 1 image per row on very small screens
+		}
+	}
+}
+
 .step-container {
-	padding: 1rem;
-	align-items: flex-end;
+	padding: 2rem;
 	gap: 1rem;
-	align-self: stretch;
 	width: 100%;
 	margin: 0;
-	max-width: 700px;
-	display: flex;
 
-	border-radius: 1rem;
-	border: 1px solid rgba($color: $blue-200, $alpha: 0.5);
+	display: flex;
 
 	.step-title {
 		display: flex;
 		flex-direction: row;
-		gap: 0.5rem;
+		gap: 1rem;
 		margin: 0;
 
 		h5 {
 			color: $off-white;
+		}
+
+		img {
+			width: 2rem;
 		}
 	}
 
@@ -158,6 +225,7 @@ html {
 
 	.content {
 		margin: 0;
+		display: flex;
 
 		subtitle {
 			color: $blue-200;
@@ -176,13 +244,24 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.bodysmall {
+	transition: color 0.5s, background-color 0.5s;
+	line-height: 1.2;
+	font-family: "Be Vietnam Pro";
+	font-weight: regular;
+	font-size: 1.2rem;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 strong {
 	font-family: Besley;
 	font-size: 1.5rem;
 	font-style: italic;
 	font-weight: 600;
 	line-height: 1.8rem;
-	letter-spacing: -0.03rem;
+	letter-spacing: -0.1rem;
 	color: $yellow;
 }
 
@@ -274,7 +353,7 @@ h5 {
 
 h6 {
 	font-family: Be Vietnam Pro;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 2rem;
@@ -317,7 +396,7 @@ b {
 
 a {
 	text-decoration: none;
-	color: $plum-dark;
+	color: $plum;
 	font-weight: 600;
 	transition: 0.2s;
 

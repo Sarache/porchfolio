@@ -45,11 +45,11 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
 
+
+
 @media (max-width: 1000px) {
 	.imgarea {
 		max-height: 300px;
 	}
-
-	
 }
 </style>

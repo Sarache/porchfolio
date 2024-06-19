@@ -24,22 +24,28 @@ useHead({
 						I discovered very in a very early age digital art, graphic and website design, and fell in love with Adobe Photoshop.
 						<strong> I was able to create any visual I could imagine,</strong> in every color, with my computer. I learned on my own thanks
 						to the internet, and that gave me the chance to be a teacher and a coordinator of a successful photo & video editing course.
-						Back then, the app icon looked like this:
 					</p>
 					<p>
-						I had the chance to have a first taste of product design thanks to my degree internship where I discovered the role design has
-						in the world and how can positively impact users’ life. Then, I studied Interactive Design masters degree to deeply learn all
-						the implications in this domain, such as
-						<strong>ethnography, extended reality, UI design, Design process & thinking, UX writing, and internet culture,</strong> among
-						others.
+						Then, I got my mom's digital camera, and brought it everywhere I went. From my own bathroom, experimenting with lighting, kind
+						of ashamed of my own baby steps in photography, to the most exotic places I had the chance to go. These pictures were not going
+						to see the light very soon, but then I discovered the <strong>internet</strong> and its potential to share digital content
+						without any remorse (back then).
 					</p>
+
 					<p>
-						Then, my professional experiences have made me dive in <strong>different and constantly changing industries</strong> from gaming
-						and retail start-ups to insurance and space and defense corporate leaders, which makes me extremely versatile.
+						I began making music as a hobbie, where
+						<strong>I directed and crafted every visual piece to be in total comfort with what was transmitted everytime. </strong><br />
+						I also rocked some looks when I started Uni and met more creative mavericks.
 					</p>
+
+					<div class="img-flex">
+						<img src="/img/Sarache_About_1.jpeg" alt="" />
+						<img src="/img/Sarache_About_2.jpeg" alt="" />
+						<img src="/img/Sarache_About_3.jpeg" alt="" />
+						<img src="/img/Sarache_About_4.jpeg" alt="" />
+					</div>
 				</template>
 			</cardwindow>
-
 		</div>
 	</main>
 </template>

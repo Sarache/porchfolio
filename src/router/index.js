@@ -7,9 +7,9 @@ import TheHumanView from "../views/01.1-TheHumanView.vue"
 import TheDesignerView from "../views/01.2-TheDesignerView.vue"
 import TheMusicianView from "../views/01.3-TheMusicianView.vue"
 
-
 import PortfolioView from "../views/02-PortfolioView.vue"
 import PortfolioDetail from "../views/02.1-PortfolioDetail.vue"
+
 import PortfolioDetailAxel from "../views/02.2-PortfolioDetailAxel.vue"
 import CreaPortfolioView from "../views/03-CreaPortfolioView.vue"
 
@@ -50,11 +50,13 @@ const router = createRouter({
       path: "/designportfolio",
       name: "portfolio",
       component: PortfolioView,
+      props: true,
     },
     {
       path: "/portfolio/:label",
       name: "portfolioitem",
       component: PortfolioDetail,
+      props: true,
     },
 
     {
@@ -67,6 +69,7 @@ const router = createRouter({
       path: "/creativeportfolio",
       name: "creativeportfolio",
       component: CreaPortfolioView,
+      props: true,
     },
 
     {

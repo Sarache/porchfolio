@@ -17,24 +17,25 @@ div {
 .content {
 	width: 100%;
 	text-align: left;
+	display: flex;
+	flex-direction: column;
 
 	.step-content {
+		display: flex;
 		width: 100%;
-		padding: 0;
 		gap: 1rem;
 		text-align: left;
+		padding: 0;
 
 		.separator {
-			width: 1px;
-			background-color: $blue-sky;
+			width: 2px;
+			background-color: $gray-600;
 			margin: 0;
-			min-height: 100%;
-			margin: 0.3rem 0;
+			margin: 0.3rem 0.5rem;
 		}
 
 		slot {
 			margin: -4px 0;
-
 			list-style-type: none;
 		}
 	}
