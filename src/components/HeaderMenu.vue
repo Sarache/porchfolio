@@ -66,7 +66,6 @@ ul {
 	flex-direction: column;
 	width: 100%;
 	justify-content: center;
-	gap: auto;
 
 	@media (max-width: 1200px) {
 		flex-direction: row;
@@ -74,7 +73,7 @@ ul {
 		padding: 0;
 		margin: 2rem;
 		justify-content: space-between;
-		padding: 0 4rem;
+		padding: 0;
 	}
 
 	@media (max-width: 1000px) {
@@ -83,6 +82,7 @@ ul {
 
 	li {
 		display: inline;
+		padding: 1rem 0;
 
 		&.has-submenu {
 			position: relative;
@@ -93,7 +93,7 @@ ul {
 				transition: max-height 0.5s ease;
 				list-style: none;
 				display: flex;
-				line-height: 1.5rem;
+				padding: 0;
 
 				@media (max-width: 1200px) {
 					max-height: auto;
@@ -104,8 +104,7 @@ ul {
 					margin: 0;
 					font-family: Be Vietnam Pro;
 					display: flex;
-					gap: 0;
-
+					padding: 0.25rem;
 					a {
 						font-size: 1rem;
 						font-weight: 500;

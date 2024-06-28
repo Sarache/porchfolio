@@ -235,7 +235,6 @@ html {
 
 body {
 	transition: color 0.5s, background-color 0.5s;
-	line-height: 1.8;
 	font-family: "Be Vietnam Pro";
 	font-weight: regular;
 	font-size: 1.5rem;
@@ -405,7 +404,7 @@ a {
 		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		cursor: url("/Users/sara.jover/Library/CloudStorage/OneDrive-Accenture/Dev Sara/portfolio-sara-jover /pointer-hover.svg"), auto;
+		cursor: url("/public/pointer-hover.svg"), auto;
 	}
 }
 

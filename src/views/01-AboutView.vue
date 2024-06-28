@@ -125,7 +125,6 @@ export default {
 	methods: {},
 }
 </script>
-<!-- [] {}  ""  :  \ /  -->
 <style lang="scss" scoped>
 h1 {
 	margin-bottom: 2rem;

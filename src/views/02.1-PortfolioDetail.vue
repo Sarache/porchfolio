@@ -1,29 +1,23 @@
+<template>
+	<portfolioDetail :detail-data="detailData" />
+</template>
+
 <script setup>
-import { useHead } from "@unhead/vue"
-import portfolioDetail from "../components/portfolioDetail.vue"
-import portfolioView from "../views/02-PortfolioView.vue"
+import { portfolioData } from "../data.js"
 
-useHead({
-	title: "{{portfolio.title}}",
-})
-
-import { ref, onMounted } from "vue"
 import { useRoute } from "vue-router"
+import { useHead } from "@unhead/vue"
+
+import portfolioDetail from "../components/portfolioDetail.vue"
 
 const route = useRoute()
-const project = ref(route.params.project || null)
 
-onMounted(() => {
-	if (!project.value) {
-		const stateProject = route.params.state.project
-		project.value = stateProject
-	}
+const detailData = portfolioData[route.params.label]
+
+useHead({
+	title: detailData.title,
 })
 </script>
-
-<template>
-	<portfolioDetail></portfolioDetail>
-</template>
 
 <style lang="scss" scoped>
 main {
