@@ -39,8 +39,8 @@ useHead({
 					</p>
 
 					<div class="img-flex">
-						<img src="/img/Sarache_About_1.jpeg" alt="" />
-						<img src="/img/Sarache_About_2.jpeg" alt="" />
+						<img src="/img/Sarache_About_1.png" alt="" />
+						<img src="/img/Sarache_About_2.png" alt="" />
 						<img src="/img/Sarache_About_3.jpeg" alt="" />
 						<img src="/img/Sarache_About_4.jpeg" alt="" />
 					</div>
