@@ -394,4 +394,26 @@ export const portfolioData = {
 		classification: "Confidential",
 		imageUrl: "/img/Nicecactus_TNT_Thumbnail.png",
 	},
+
+	sentarte: {
+		title: "SentArte - The interactive chair game",
+		label: "sentarte",
+		year: "2020",
+		company: "Museo Nacional de Artes Decorativas",
+		description:
+			"This museum has been highly unnoticed among the Madrid visitors, so our team decided to participate in a proposal to keep the museum alive while reforming the majestic building where all the pieces of art belong. The solution is based on a scouting urban game, engaging with Augmented Reality and history inmersion thanks to the app called SentArte.",
+		tags: [
+			"Field Research",
+			"Augmented Reality",
+			"Gamification",
+			"Physical Product Design",
+			"Mobile App",
+			"QR Code",
+			"Madrid",
+			"Portal to the past",
+		],
+		icons: ["Figma", "SparkAR", "AutoCAD"],
+		classification: "Public",
+		imageUrl: "/img/Sentarte_.png",
+	},
 }
