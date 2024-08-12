@@ -95,6 +95,58 @@ export const portfolioData = {
 		icons: ["Figma", "Dovetail"],
 		classification: "Confidential",
 		imageUrl: "/img/BWTSR_TrainingHub.png",
+		primarySections: [
+			{
+				title: "The Client",
+				description:
+					"The client is a <strong>massive electronic company</strong> operating worldwide and providing electric solutions for particulars, distribution stores and other businesses.",
+			},
+			{
+				title: "The Challenge",
+				description:
+					"In their CRM, a module called Next Best Action designed by the company is provided for customer support agents in order to speed up the process in different touchpoints. <strong>The component seems to be underused </strong>and we need to know why and which can be the best approach.",
+			},
+			{
+				title: "The Solution",
+				description:
+					"We have redesigned the NBA module with call-to-action button labels, requirements to trigger the action and a short description.",
+			},
+		],
+		sections: [
+			{
+				title: "Functionnal deep dive + Technical feasibility assessment → Mock up solution",
+				description:
+					"First, it is essential to get to understand the tool and what NBA offers to the users. For that, we are planning a research phase with every stakeholder to ensure all profiles need the tool and use it the same way. Once we have the main insights, we can start building the user personae, based on our key users.",
+				image: "/img/BWTSR_Research1.png",
+
+				altText: "Research roadmap & activities",
+			},
+			{
+				image: "/img/BWTSR_Research2.png",
+			},
+			{
+				description: 
+				"Once we know the main streams to work in thanks to the valuable user insights, a technical feasibility assessment needs to be made from the client team to define the approach.",
+				image: "/img/BWTSR_Persona.png",
+			},
+
+			{
+				image: "/img/BWTSR_Insights1.png",
+			},
+
+			{
+				title: "Mock-up design",
+				description:
+					"To bring the design solution to the client, we have iterated twice on the module. Here are the 3 versions:",
+				image: "/img/BWTSR_Design1.png",
+			},
+			{
+				image: "/img/BWTSR_Design2.png",
+			},
+			{
+				image: "/img/BWTSR_Design3.png",
+			},
+		],
 	},
 
 	salesjourney: {

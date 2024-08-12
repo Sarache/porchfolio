@@ -21,33 +21,26 @@ useHead({
 					of art creation.
 					<br />
 					<p>
-						I discovered very in a very early age digital art, graphic and website design, and fell in love with Adobe Photoshop.
-						<strong> I was able to create any visual I could imagine,</strong> in every color, with my computer. I learned on my own thanks
-						to the internet, and that gave me the chance to be a teacher and a coordinator of a successful photo & video editing course.
+						From a young age, I fell in love with digital art and Adobe Photoshop, creating any visual I could imagine.
+						<strong>Self-taught through the internet</strong>, I became a teacher and coordinator for a successful photo & video
+						editing course.
 					</p>
-					<p>
-						Then, I got my mom's digital camera, and brought it everywhere I went. From my own bathroom, experimenting with lighting, kind
-						of ashamed of my own baby steps in photography, to the most exotic places I had the chance to go. These pictures were not going
-						to see the light very soon, but then I discovered the <strong>internet</strong> and its potential to share digital content
-						without any remorse (back then).
-					</p>
-
-					<p>
-						I found a place to publish my content and create my universe, Groups MSN, which provided free website hosts and content
-						management, making it extremely easy for kids to build their sites.
-						<strong>I started understanding the logic behind coding,</strong> and I was making a lot of tweaks to make my designs shine.
-					</p>
-
-					<p>
-						I began making music as a hobbie, where
-						<strong>I directed and crafted every visual piece to be in total comfort with what was transmitted everytime. </strong><br />
-						I also rocked some looks when I started Uni and met more creative mavericks.
-					</p>
-
 					<div class="img-flex">
 						<img src="/img/Sarache_About_1.png" alt="" />
 						<img src="/img/Sarache_About_2.png" alt="" />
 					</div>
+
+					<p>
+						With my mom's digital camera, I captured everything—from bathroom experiments with lighting to exotic locations. Though those
+						early photos stayed hidden, <strong>discovering the internet's potential for sharing content changed everything</strong>. Groups
+						MSN became my playground, where I honed my coding skills to make my designs stand out.
+					</p>
+
+					<p>
+						Music became a hobby, and I crafted every visual piece to perfectly align with the emotions in each track. Starting Uni, I
+						embraced bold looks and met <a href="https://www.youtube.com/@elbuenchaval" target="_blank">creative mavericks</a>.
+					</p>
+
 				</template>
 			</cardwindow>
 			<cardwindow>
@@ -59,6 +52,10 @@ useHead({
 						creative first job in the audiovisual industry. That is why I was making side, personal projects to keep my creative vision
 						alive, while having more technical jobs.
 					</p>
+					<div class="img-flex">
+						<img src="/img/Sarache_About_3.png" alt="" />
+						<img src="/img/Sarache_About_5.jpg" alt="" />
+					</div>
 					<p>
 						I have always been doing this. Since it was a possibility, I would create something on the internet in parallel to perfect my
 						technique and show it to the world. Such a pity that the former spanish social network "Tuenti" wasn't working as today's
@@ -72,11 +69,6 @@ useHead({
 						<li>✦ packing all up to change countries</li>
 						<li>✦ retrospective moments such as stuck memories</li>
 					</ul>
-
-					<div class="img-flex">
-						<img src="/img/Sarache_About_1.png" alt="" />
-						<img src="/img/Sarache_About_2.png" alt="" />
-					</div>
 				</template>
 			</cardwindow>
 		</div>

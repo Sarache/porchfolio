@@ -78,7 +78,7 @@ html {
 body {
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
-  font-family: "Be Vietnam Pro";
+  font-family: "Figtree";
   font-weight: regular;
   font-size: 1.1rem;
   text-rendering: optimizeLegibility;
@@ -125,7 +125,7 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 500;
-  font-family: Be Vietnam Pro;
+  font-family: Figtree;
   font-size: 3rem;
   font-style: normal;
   font-weight: 200;
@@ -134,7 +134,7 @@ h3 {
 }
 
 .subtitle {
-  font-family: Be Vietnam Pro;
+  font-family: Figtree;
   font-size: 1rem;
   font-style: normal;
   font-weight: 900;

@@ -66,6 +66,7 @@ div {
 	gap: 4rem;
 
 	@media (min-width: 1600px) {
+		width: 100%;
 
 display: flex;
 align-self: center;
@@ -76,6 +77,6 @@ align-self: center;
 html,
 body {
 	width: 100%;
-	overflow-x: hidden;
+
 }
 </style>

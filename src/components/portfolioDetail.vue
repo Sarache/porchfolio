@@ -1,9 +1,9 @@
 <template>
 	<main v-if="detailData">
 		<h1 class="hero">{{ detailData.title }}</h1>
-		<video class="video" width="1200px" controls>
-			<source :src="detailData.video" type="video/mp4" />
-		</video>
+		<video v-if="detailData.video" class="video" width="1200px" controls>
+  <source :src="detailData.video" type="video/mp4" />
+</video>
 		<div class="portfolioitem-content">
 			<div class="portfolioitem-section">
 				<div class="portfoliosection-content" v-for="section in detailData.primarySections" :key="section.title">
@@ -67,7 +67,7 @@ main {
 				display: flex;
 				flex-direction: column;
 				width: 100%;
-				gap: 4rem;
+				gap: 1rem;
 			}
 
 			ul {

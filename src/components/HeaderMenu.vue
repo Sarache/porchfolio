@@ -4,7 +4,7 @@
 			<li>
 				<menuitem>
 					<router-link to="/">
-						<img class="logo" src="../assets/LogoSarache.png" alt="Home" />
+						<img class="logo" src="/public/img/title-planet-Sara.png" alt="Home" />
 					</router-link>
 				</menuitem>
 			</li>
@@ -13,7 +13,6 @@
 				<ul class="submenu">
 					<li><router-link to="/about/thehuman">The human</router-link></li>
 					<li><router-link to="/about/thedesigner">The designer</router-link></li>
-					<li><router-link to="/about/themusician">The musician</router-link></li>
 				</ul>
 			</li>
 			<li>
@@ -102,7 +101,7 @@ ul {
 
 				li {
 					margin: 0;
-					font-family: Be Vietnam Pro;
+					font-family: Figtree;
 					display: flex;
 					padding: 0.25rem;
 					a {
@@ -131,7 +130,7 @@ ul {
 		}
 
 		.logo {
-			height: 3rem;
+			height: 8rem;
 			display: flex;
 			align-self: center;
 

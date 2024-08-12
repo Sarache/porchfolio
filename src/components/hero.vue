@@ -31,7 +31,7 @@ div {
 
 .regular {
 	-webkit-text-fill-color: $off-white;
-	font-family: Be Vietnam Pro;
+	font-family: Figtree;
 	font-size: 3rem;
 	font-style: normal;
 	font-weight: 200;

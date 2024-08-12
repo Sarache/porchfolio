@@ -134,7 +134,7 @@ export default {
 		right: 2rem;
 		transition: opacity 0.5s;
 		line-height: 1.2;
-		font-family: "Be Vietnam Pro";
+		font-family: "Figtree";
 		font-weight: regular;
 		font-size: 1.2rem;
 		text-rendering: optimizeLegibility;
@@ -192,7 +192,7 @@ export default {
 
 				background: $off-black;
 				color: $blue-200;
-				font-family: Be Vietnam Pro;
+				font-family: Figtree;
 				text-transform: uppercase;
 				font-size: 1rem;
 				font-weight: 800;

@@ -1,13 +1,28 @@
 <template>
 	<div class="imgarea">
 		<img class="stars" src="../assets/clip1.svg" alt="" />
-		<img class="avatar" src="/img/title-planet-Sara.png" alt="Planet Sara written in cursive, very colorful and metallic" />
+		<carouselhome />
+
 	</div>
 </template>
-<script></script>
+
+
+
+<script>
+import carouselhome from '/src/components/carouselhome.vue';
+
+export default {
+  components: {
+    carouselhome
+  }
+};
+</script>
 
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
+
+
+
 .imgarea {
 	width: 100%;
 	display: flex;
@@ -17,12 +32,12 @@
 	.stars {
 		margin: 8rem;
 		width: 105%;
-
+opacity: .2;
 		padding-left: 10rem;
 
 		filter: drop-shadow(5px 5px 10px ($plum));
 
-		animation: bounce 200s linear 0s 0.5 normal both;
+		animation: bounce 100s linear 0s 0.5 normal both;
 
 		@keyframes bounce {
 			0%,

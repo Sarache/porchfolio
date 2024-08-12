@@ -1,6 +1,7 @@
 <script setup>
 import { useHead } from "@unhead/vue"
 import cardwindow from "@/components/cardwindow.vue"
+import buttonimg from "@/components/buttonimg.vue"
 
 useHead({
 	title: "✧ 𝓟𝓵𝓪𝓷𝓮𝓽 𝓢𝓪𝓻𝓪 ✧ The Capitol",
@@ -17,9 +18,16 @@ useHead({
 				<template v-slot:content>
 					Please click on an ecosystem to assess you more precisely:
 					<div class="img-flex">
-						<router-link to="/about/thehuman"> <img src="/img/About_Photography.jpeg" alt="" />Heelo </router-link>
-						<router-link to="/about/thedesigner"> <img src="/img/About_Photography2.jpeg" alt="" /> </router-link>
-						<router-link to="/about/themusician"> <img src="/img/About_Photography3.jpeg" alt="" /> </router-link>
+						<router-link to="/about/thehuman"
+							><buttonimg imgSrc="public/img/Sarache_Human_1.jpg">
+								<template v-slot:label>The human</template>
+							</buttonimg></router-link
+						>
+						<router-link to="/about/thedesigner">
+							<buttonimg imgSrc="public/img/About_Photography4.jpg">
+								<template v-slot:label>The designer</template>
+							</buttonimg></router-link
+						>
 					</div>
 				</template>
 			</cardwindow>
@@ -129,5 +137,4 @@ export default {
 h1 {
 	margin-bottom: 2rem;
 }
-
 </style>
