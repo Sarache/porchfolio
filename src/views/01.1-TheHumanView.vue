@@ -153,16 +153,6 @@ export default {
 h1 {
 	margin-bottom: 2rem;
 }
-.aboutcontent {
-	display: flex;
-	flex-direction: row;
-	gap: 2rem;
-	width: 100%;
-
-	@media (max-width: 1000px) {
-		flex-direction: column;
-	}
-}
 
 .stepProcess {
 	display: flex;

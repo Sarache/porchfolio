@@ -129,12 +129,5 @@ export default {
 h1 {
 	margin-bottom: 2rem;
 }
-.aboutcontent {
-	gap: 4rem;
-	width: 100%;
 
-	@media (max-width: 1000px) {
-		flex-direction: column;
-	}
-}
 </style>

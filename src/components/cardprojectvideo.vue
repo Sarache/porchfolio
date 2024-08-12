@@ -79,6 +79,12 @@ export default {
 		flex: 1 1 100%; // One project per row on smaller screens
 		max-width: 100%;
 	}
+
+
+	@media (min-width: 1600px) {
+		flex: 1 1 calc(32% - 2rem); // Two projects per row with gap
+		max-width: calc(32% - 2rem);
+	}
 }
 
 .project {

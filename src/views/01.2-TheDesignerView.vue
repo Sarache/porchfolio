@@ -164,26 +164,4 @@ h1 {
 	margin-bottom: 2rem;
 }
 
-.aboutcontent {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	width: 100%;
-
-	@media (max-width: 1000px) {
-		flex-direction: column;
-	}
-}
-
-.stepProcess {
-	gap: 1rem;
-	padding: 0 0.25rem;
-}
-
-.journeycontent {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-}
 </style>

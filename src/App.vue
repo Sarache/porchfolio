@@ -64,6 +64,13 @@ div {
 .pagecontent {
 	width: 100%;
 	gap: 4rem;
+
+	@media (min-width: 1600px) {
+
+display: flex;
+align-self: center;
+}
+	
 }
 
 html,
