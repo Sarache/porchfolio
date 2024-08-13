@@ -33,14 +33,14 @@ export const portfolioData = {
 				title: "First Value Proposition",
 				description:
 					"After numerous working sessions and touch points, we elaborated a value proposition canvas to showcase the most relevant features and how can it improve user experience and adoption.",
-				image: "./img/Axel_ValueProp.svg",
+				image: "../img/Axel_ValueProp.svg",
 				altText: "Value Proposition canvas",
 			},
 			{
 				title: "First Wireframes",
 				description:
 					"We imagined how the experience can be to design a user journey and in which moments of life Axel could provide information and solutions to John. The user needs a very concise answer to a query.",
-				image: "./img/Axel_Wireframe.png",
+				image: "../img/Axel_Wireframe.png",
 				altText: "",
 			},
 
@@ -48,7 +48,7 @@ export const portfolioData = {
 				title: "First Chat GPT experiments",
 				description:
 					"Open AI is the to-go Gen AI tool, so we experimented with some questions and sentiment analysis. We will prompt-engineer the instructions and make a framework that can receive all kinds of text documents in order to analyze them and translate them into a more humanistic answer. <br /> We have provided as well a list of services with a label, description, image and link associated to each one, in order to recommend relevant services included or not in the user contract. <br /> Moreover, we have injected all partnerships to include relevant discounts in specific contexts. <br /> Everything has been added into a dev enviroment to test questions and answers.",
-				image: "./img/Axel_Dev.png",
+				image: "../img/Axel_Dev.png",
 				altText: "",
 			},
 
@@ -94,7 +94,7 @@ export const portfolioData = {
 		tags: ["User Research", "Service Design", "User Interface", "Augmented Agent"],
 		icons: ["Figma", "Dovetail"],
 		classification: "Confidential",
-		imageUrl: "./img/BWTSR_TrainingHub.png",
+		imageUrl: "../img/BWTSR_TrainingHub.png",
 		primarySections: [
 			{
 				title: "The Client",
@@ -117,34 +117,34 @@ export const portfolioData = {
 				title: "Functionnal deep dive + Technical feasibility assessment → Mock up solution",
 				description:
 					"First, it is essential to get to understand the tool and what NBA offers to the users. For that, we are planning a research phase with every stakeholder to ensure all profiles need the tool and use it the same way. Once we have the main insights, we can start building the user personae, based on our key users.",
-				image: "./img/BWTSR_Research1.png",
+				image: "../img/BWTSR_Research1.png",
 
 				altText: "Research roadmap & activities",
 			},
 			{
-				image: "./img/BWTSR_Research2.png",
+				image: "../img/BWTSR_Research2.png",
 			},
 			{
 				description: 
 				"Once we know the main streams to work in thanks to the valuable user insights, a technical feasibility assessment needs to be made from the client team to define the approach.",
-				image: "./img/BWTSR_Persona.png",
+				image: "../img/BWTSR_Persona.png",
 			},
 
 			{
-				image: "./img/BWTSR_Insights1.png",
+				image: "../img/BWTSR_Insights1.png",
 			},
 
 			{
 				title: "Mock-up design",
 				description:
 					"To bring the design solution to the client, we have iterated twice on the module. Here are the 3 versions:",
-				image: "./img/BWTSR_Design1.png",
+				image: "../img/BWTSR_Design1.png",
 			},
 			{
-				image: "./img/BWTSR_Design2.png",
+				image: "../img/BWTSR_Design2.png",
 			},
 			{
-				image: "./img/BWTSR_Design3.png",
+				image: "../img/BWTSR_Design3.png",
 			},
 		],
 	},
@@ -159,7 +159,7 @@ export const portfolioData = {
 		tags: ["User Research", "Contextual Enquiring", "Shadowing", "Field study", "User Personae", "Service Blueprint"],
 		icons: ["Miro", "Dovetail"],
 		classification: "Confidential",
-		imageUrl: "./img/BP_Contractors.jpg",
+		imageUrl: "../img/BP_Contractors.jpg",
 	},
 
 	ePOD: {
@@ -172,8 +172,8 @@ export const portfolioData = {
 		tags: ["3D Design", "Green IT", "Sustainable", "Sciences & Environment", "Responsive Design", "UI", "Accessibility"],
 		icons: ["Miro", "Dovetail"],
 		classification: "Confidential",
-		imageUrl: "./img/ePod_Parcours.png",
-		video: "/vid/ePod_Video.mp4",
+		imageUrl: "../img/ePod_Parcours.png",
+		video: "../vid/ePod_Video.mp4",
 
 		primarySections: [
 			{
@@ -197,21 +197,21 @@ export const portfolioData = {
 				title: "Research phase",
 				description:
 					"The main key findings were that having a 3D model of the expedition boat would be interesting for audience segment. In addition, we needed a solution that could be shown in classrooms and easily shared, so the information flows and reaches as many people as possible. As the Polar POD itself, the website needs to be sustainable and low on resources.",
-				image: "./img/ePOD_UserFlow.png",
+				image: "../img/ePOD_UserFlow.png",
 				altText: "ePOD desired user flow",
 			},
 			{
 				title: "Design phase",
 				description:
 					"First things first, we decided to use a third-system approach. In desktop, 2/3 represent the 3D model, and 1/3 will be the media content on its right side. As well, we discussed the navigation system and it was initially decided that there would be 2 modes, mouse and keyboard, but according to accessibility standards, these rules might be limitative if the user wants to use both systems at the same time.",
-				image: "./img/ePOD_Desktop_v0.png",
+				image: "../img/ePOD_Desktop_v0.png",
 				altText: "",
 			},
 
 			{
 				description:
 					"We started an atomic approach by designing the pieces of media to then arrange them together. The audio module was designed according to a default web3 audio player standard, but adding a transcript dropdown section to improve accessibility.",
-				image: "./img/ePOD_AudioComponent.png",
+				image: "../img/ePOD_AudioComponent.png",
 				altText: "",
 			},
 
@@ -219,7 +219,7 @@ export const portfolioData = {
 				title: "",
 				description:
 					"The process was clear each time: <br>The designer gets a ticket of a module or functionnality → the designer creates one or multiple solutions → every week, technical teammates challenge the feasability or each one’s preference while the designer explains and defends their design (thanks to the amazing ritual 3 amigos) → PO creates ticket with chosen solution for the developer <br> We continued validating modules and bringing solutions to develop:",
-				image: "./img/ePOD_Video_component.png",
+				image: "../img/ePOD_Video_component.png",
 				altText: "",
 			},
 
@@ -234,7 +234,7 @@ export const portfolioData = {
 			{
 				title: "First desktop version",
 				description: "We launched the first version under the URL <strong>epod.polarpod.fr</strong>",
-				image: "./img/ePOD_Desktop_v1.png",
+				image: "../img/ePOD_Desktop_v1.png",
 				altText: "",
 			},
 
@@ -242,7 +242,7 @@ export const portfolioData = {
 				title: "",
 				description:
 					"A session of usability testing has been scheduled in order to detect bugs and desktop usability to anticipate for the mobile version and next desktop iteration, as well as a quick survey to get additional and quantitative insights. Overally, users navigate fluidly and understand the navigation principles of the epod website. <br> <ul><li>However, sometimes users get lost moving the 3D model too much and cannot go back to a default point of view.</li><li>Although, some users find the description and transcriptions repetitive, the text remains the same. They also would want some formatting and spacing.</li><li>Some sections lack interactivity, users would like a highlighted section of the 3D model when reading about it.</li><li>Also, as a general feedback, users didn’t find the information about the boat, like how can it float, or what is the expedition roadmap. They didn’t know there is a Polar POD standalone website, which can be confusing.</li></ul>",
-				image: "./img/ePOD_Desktop_v1.png",
+				image: "../img/ePOD_Desktop_v1.png",
 				altText: "",
 			},
 
@@ -250,14 +250,14 @@ export const portfolioData = {
 				title: "Responsiveness",
 				description:
 					"One of the main challenges in this project is responsiveness. I personally always push for a mobile-first approach as a matter of simplicity and prioritization, but the desktop-first decision was already made when I entered the team. <br>In order to keep most of the space for the 3D model, we arranged the the breakpoint change in 1000px, having the desktop viewport in landscape-oriented tablets and mobile in vertical tablets. On the left, 1000px width (desktop), on the right 999px (mobile)",
-				image: "./img/ePOD_Responsive.png",
+				image: "../img/ePOD_Responsive.png",
 				altText: "",
 			},
 
 			{
 				title: "",
 				description: "Then, we tried to conceive the mobile version:",
-				image: "./img/ePOD_Mobile.png",
+				image: "../img/ePOD_Mobile.png",
 				altText: "",
 			},
 
@@ -265,7 +265,7 @@ export const portfolioData = {
 				title: "",
 				description:
 					"As said before, this was challenging because there was too much text provided by the editorial team. The introduction text in the modal window, for instance, felt longer in smaller mobile screens, so the user needs to scroll to finish reading or moving on.<br>Also, repositioning elements to the mobile interface without compromising the design and structure was one of the hardest challenges of the project:",
-				image: "./img/ePOD_Responsive_Multipath.png",
+				image: "../img/ePOD_Responsive_Multipath.png",
 				altText: "",
 			},
 
@@ -273,7 +273,7 @@ export const portfolioData = {
 				title: "",
 				description:
 					"For the path selection, we would lose all the 3D model underneath the content, which can be uncomfortable for the user that wants to explore the Digital Twin. <br>We ideated this accordion style for the paths so it can show the title of the capsule while navigating around the 3D model. We suggested to add a handlebar on top of the accordion, but unfortunately after some tests, it lacked affordance. <br>We decided to include a floating button (inspired in Google maps) with a “Read more” label.",
-				image: "./img/ePOD_Mobile_accordion.png",
+				image: "../img/ePOD_Mobile_accordion.png",
 				altText: "",
 			},
 
@@ -365,14 +365,14 @@ export const portfolioData = {
 				title: "Design phase",
 				description:
 					"As discussed, we needed to find a common visual pattern and look and feel to keep consistency and be identifiable.<br>Using the <a href='https://www.designsystemchecklist.com/'>design System checklist</a> to organize our elements, we established consistent breakpoints, accent colors, design tokens and values to then tackle the visual creation part. <br>We worked mainly on core components since we needed to redesign content pages that were not part of nicecactus. Every service, as mentionned above, is defined by a color: orange for tournaments, green for training, and blue for analytics. This way, the user can identify the section  just by looking at the accent color of the page.",
-				image: "./img/Nicecactus_DS_Colors.png",
+				image: "../img/Nicecactus_DS_Colors.png",
 				altText: "",
 			},
 
 			{
 				description:
 					"There was also a notification (re)design pending, since neither the visual appearance or the tone of voice were consistent across all services. Based on several articles, we made the alerts with a friendly, non-intrusive approach to the user, appearing as a toast.",
-				image: "./img/Nicecactus_DesignSystem_Banners.png",
+				image: "../img/Nicecactus_DesignSystem_Banners.png",
 				altText: "",
 			},
 
@@ -385,7 +385,7 @@ export const portfolioData = {
 			{
 				description:
 					"Before that, components would be constantly updated since the needs would partially change due to Product team decisions that would modify the roadmap and priorities last minute. We clearly needed to change our approach if these modifications would happen every once in a while.",
-				image: "./img/Nicecactus_DS_Thumbnail.vue",
+				image: "../img/Nicecactus_DS_Thumbnail.vue",
 			},
 
 			{

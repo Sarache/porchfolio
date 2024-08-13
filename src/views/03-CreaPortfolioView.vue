@@ -117,6 +117,7 @@ export default {
 
 <style lang="scss" scoped>
 main {
+	width:100%;
 	gap: 2rem;
 	.portfolio-content {
 		display: flex;

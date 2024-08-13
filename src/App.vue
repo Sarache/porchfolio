@@ -11,11 +11,11 @@ import Background from "./components/background.vue"
 	<Background>
 		<div class="gradient-bg">
 			<div class="gradient-container">
-				<div class="g1"></div>
+				<!-- <div class="g1"></div>
 				<div class="g2"></div>
 				<div class="g3"></div>
 				<div class="g4"></div>
-				<div class="g5"></div>
+				<div class="g5"></div> -->
 				<div class="interactive" ref="interBubble"></div>
 			</div>
 		</div>
