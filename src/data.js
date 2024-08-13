@@ -9,8 +9,8 @@ export const portfolioData = {
 		tags: ["Storyboard", "User Interface", "Gen AI", "Insurance", "Immersive Demo"],
 		icons: ["Figma", "https://xxx", "Dovetail"],
 		classification: "Confidential",
-		imageUrl: "/img/Axel_UI.png",
-		video: "/vid/Teaser_v2_EN.mp4",
+		imageUrl: "./img/Axel_UI.png",
+		video: "../vid/Teaser_v2_EN.mp4",
 		primarySections: [
 			{
 				title: "The Client",

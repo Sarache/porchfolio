@@ -17,10 +17,10 @@ export default {
     return {
       currdeg: 0,
       items: [
-        { class: 'a', background: 'url("//img/Sarache_About_1.png")' },
-        { class: 'b', background: 'url("//img/Sarache_About_2.png")' },
-        { class: 'c', background: 'url("//img/Sarache_About_3.png")' },
-        { class: 'd', background: 'url("//img/Sarache_Design_1.png")' },
+        { class: 'a', background: 'url("./img/Sarache_About_1.png")' },
+        { class: 'b', background: 'url("././img/Sarache_About_2.png")' },
+        { class: 'c', background: 'url(".//img/Sarache_About_3.png")' },
+        { class: 'd', background: 'url("././/img/Sarache_Design_1.png")' },
         // Uncomment and update paths as needed
         // { class: 'e', background: 'url("/porchfolio/public/img/Sarache_About_5.png")' },
         // { class: 'f', background: 'url("/porchfolio/public/img/Sarache_About_6.png")' }
@@ -93,26 +93,26 @@ position: absolute;
 }
   .a {
     transform: rotateY(0deg) translateZ(250px);
-    background: url("//img/Sarache_About_1.png");
+    background: url("./img/Sarache_About_1.png");
      background-size: cover; /* Ensure the image covers the entire element */
   background-position: center; /* Center the image */
 
   }
   .b {
     transform: rotateY(90deg) translateZ(250px);
-    background: url("//img/Sarache_About_2.png");
+    background: url("../img/Sarache_About_2.png");
     background-size: cover; /* Ensure the image covers the entire element */
     background-position: center; /* Center the image */
   }
   .c {
     transform: rotateY(180deg) translateZ(250px);
-    background: url("public/img/Sarache_About_3.png");
+    background: url("././img/Sarache_About_3.png");
     background-size: cover; /* Ensure the image covers the entire element */
     background-position: center; /* Center the image */
   }
   .d {
     transform: rotateY(270deg) translateZ(250px);
-    background: url("public/img/Sarache_Design_1.png");
+    background: url("//img/Sarache_Design_1.png");
     background-size: cover; /* Ensure the image covers the entire element */
     background-position: center; /* Center the image */
   }

@@ -1,6 +1,6 @@
 <template>
 	<div class="imgarea">
-		<img class="stars" src="../assets/clip1.svg" alt="" />
+		<img class="stars" src="../../public/img/clip1.svg" alt="" />
 		<carouselhome />
 
 	</div>
