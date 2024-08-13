@@ -19,12 +19,12 @@ useHead({
 					Please click on an ecosystem to assess you more precisely:
 					<div class="img-flex">
 						<router-link to="/about/thehuman"
-							><buttonimg imgSrc="public/img/Sarache_Human_1.jpg">
+							><buttonimg imgSrc="./img/Sarache_Human_1.jpg">
 								<template v-slot:label>The human</template>
 							</buttonimg></router-link
 						>
 						<router-link to="/about/thedesigner">
-							<buttonimg imgSrc="public/img/About_Photography4.jpg">
+							<buttonimg imgSrc="./img/About_Photography4.jpg">
 								<template v-slot:label>The designer</template>
 							</buttonimg></router-link
 						>
