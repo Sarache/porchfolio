@@ -53,7 +53,7 @@ export default {
 	height: 100vh;
 	z-index: -10;
 	background-color: rgba(16, 20, 25, 0.7843137255);
-	background: url("/img/bg-general.png");
+	background: url("./img/bg-general.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

@@ -26,8 +26,8 @@ useHead({
 						editing course.
 					</p>
 					<div class="img-flex">
-						<img src="/img/Sarache_About_1.png" alt="" />
-						<img src="/img/Sarache_About_2.png" alt="" />
+						<img src="./img/Sarache_About_1.png" alt="" />
+						<img src="./img/Sarache_About_2.png" alt="" />
 					</div>
 
 					<p>
@@ -53,8 +53,8 @@ useHead({
 						alive, while having more technical jobs.
 					</p>
 					<div class="img-flex">
-						<img src="/img/Sarache_About_3.png" alt="" />
-						<img src="/img/Sarache_About_5.jpg" alt="" />
+						<img src="./img/Sarache_About_3.png" alt="" />
+						<img src="./img/Sarache_About_5.jpg" alt="" />
 					</div>
 					<p>
 						I have always been doing this. Since it was a possibility, I would create something on the internet in parallel to perfect my
