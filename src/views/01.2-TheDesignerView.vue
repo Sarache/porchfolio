@@ -24,8 +24,8 @@ useHead({
 						Challenges? Venid aquí! Each one's just another chance to push boundaries and make experiences even better.
 					</p>
 					<div class="img-flex">
-						<img src="./img/Fanzie_Splash.png" alt="" />
-						<img src="./img/Sarache_Design_1.png" alt="" />
+						<img src="../../public/img/Fanzie_Splash.png" alt="" />
+						<img src="../../public/img/Sarache_Design_1.png" alt="" />
 					</div>
 					<p>
 						I'm all about spreading the word on how UX can be a game-changer. It's not just about making things look bonitas; it's about
